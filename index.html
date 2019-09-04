@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
+    <title>P1</title>
+  </head>
+  <body>
+    <header>
+      <h1>Project 1</h1>
+      <p>Welcome to project one, this will be a simple form validation screen</p>
+    </header>
+    <main>
+      <div class="form">
+        <h2>Please enter information</h2>
+        <section class="Fname">
+          <label for="Fname">First name</label>
+          <input type="text" name="Fname" placeholder="ex John">
+          <span>Please enter your first name</span>
+        </section>
+        <section class="Lname">
+          <label for="Lname">Last name</label>
+          <input type="text" name="Lname" placeholder="ex Doe">
+          <span>Please enter your last name</span>
+        </section>
+        <section class="email">
+          <label for="email">Email</label>
+          <input type="email" name="" placeholder="ex SomePerson@gmail">
+          <span>Please enter a valid address</span>
+        </section>
+        <section>
+          <label for="password">Password</label>
+          <input id="password" type="password" name="" value="">
+          <span>Please type an 8 character password</span>
+          <label for="reEnter">Please re-enter your password</label>
+          <input id="reEnterPassword" type="password" name="" value="">
+          <span>&#10004;</span>
+        </section>
+        <section>
+          <button id="button" type="button" name="button">submit</button>
+        </section>
+      </div>
+      <div class="simpleModal" id="modal">
+        <div class="modal-content">
+          <span class="closeButton">&times;</span>
+          <p>Thank you so much for the exercise, everything looks correct!</p>
+        </div>
+
+      </div>
+    </main>
+
+  </body>
+</html>

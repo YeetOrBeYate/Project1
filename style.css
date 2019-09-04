@@ -1,0 +1,93 @@
+body {
+  background-color: #EDDDD4;
+  font-family: Helvetica;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  background-color: #197278;
+  color: ivory;
+  padding: 30px 30px;
+}
+
+h2 {
+  padding-top: 10px;
+}
+
+label {
+  display: block;
+  padding-top: 10px;
+}
+
+.form span {
+  color: #F2E86D;
+}
+
+.form {
+  border-radius: 2%;
+  color: ivory;
+  background-color: #197278;
+  width: 600px;
+  margin: auto;
+  padding-left: 10px;
+}
+
+#button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 2%;
+  background-color: #EDDDD4;
+}
+
+#button:hover {
+  color: white;
+  background-color: #F59CA9;
+}
+
+#modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 20% auto;
+  padding: 20px;
+  width: 50%;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.9);
+  animation-name: yeet;
+  animation-duration: 1s;
+}
+
+.closeButton {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+}
+
+.closeButton:hover, .closeButton:focus {
+  color: black;
+  cursor: pointer;
+}
+
+@keyframes yeet {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
